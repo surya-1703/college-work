@@ -3,391 +3,346 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Surya S - Resume</title>
+    <title>Alex Johnson - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Main Resume Container -->
-    <div class="resume-container">
-        
-        <!-- Header/Profile Section -->
-        <header class="header-section">
-            <div class="profile-content">
-                <h1 class="name">SURYA S</h1>
-                <p class="title">B.Tech Information Technology Student | Class Representative</p>
-                
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <span class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
-                    </span>
-                    <span class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:your.email@example.com">your.email@example.com</a>
-                    </span>
-                    <span class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-                    </span>
-                    <span class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
-                    </span>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Alex Johnson</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-photo">
+                    <img src="https://via.placeholder.com/200?text=Alex+Johnson" alt="Profile Photo">
                 </div>
-                
-                <!-- Location -->
-                <div class="location">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <span>Coimbatore, Tamil Nadu, India</span>
+                <h1 class="hero-title">Alex Johnson</h1>
+                <p class="hero-subtitle">Information Technology Student</p>
+                <p class="hero-description">
+                    Passionate developer with expertise in web development and software engineering. 
+                    Eager to contribute technical skills and creativity to innovative projects.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#" class="btn btn-secondary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
                 </div>
             </div>
-        </header>
+        </div>
+    </section>
 
-        <!-- Main Content Area -->
-        <main class="resume-content">
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated Information Technology student with a strong passion for web development 
+                        and software engineering. With solid foundational knowledge in multiple programming languages 
+                        and frameworks, I strive to create efficient, scalable, and user-friendly solutions.
+                    </p>
+                    <p>
+                        I believe in continuous learning and keeping up with the latest technologies. My academic 
+                        projects and hands-on experience have equipped me with problem-solving skills and the ability 
+                        to work effectively in team environments.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy contributing to open-source projects, attending tech meetups, 
+                        and exploring emerging technologies. I'm actively seeking internship and placement opportunities 
+                        where I can apply my skills and grow as a developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <!-- Career Objective Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-bullseye"></i> Career Objective
-                </h2>
-                <p class="section-text">
-                    Highly motivated B.Tech Information Technology student seeking opportunities to apply technical knowledge and leadership skills in a dynamic software development or IT environment. Committed to continuous learning and contributing to innovative projects while serving as a Class Representative, demonstrating strong communication and organizational abilities.
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-header">
+                    <h3>Bachelor of Technology in Information Technology</h3>
+                    <span class="degree-year">2022 - 2026</span>
+                </div>
+                <p class="education-institution">
+                    <i class="fas fa-university"></i> XYZ Engineering College
                 </p>
-            </section>
-
-            <!-- Education Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-graduation-cap"></i> Education
-                </h2>
-                
-                <div class="education-item">
-                    <div class="edu-header">
-                        <h3 class="degree">B.Tech Information Technology</h3>
-                        <span class="duration">
-                            <i class="far fa-calendar"></i> Expected Graduation: 2025
-                        </span>
-                    </div>
-                    <p class="institution">
-                        <i class="fas fa-university"></i> Hindusthan College of Engineering and Technology, Coimbatore
-                    </p>
-                    <p class="cgpa">
-                        <strong>CGPA:</strong> <span class="placeholder">[Your CGPA]</span>
-                    </p>
+                <div class="education-details">
+                    <span class="cgpa-badge">CGPA: <strong>8.5</strong>/10</span>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="education-item">
-                    <div class="edu-header">
-                        <h3 class="degree">XII - HSC/CBSE</h3>
-                        <span class="duration">
-                            <i class="far fa-calendar"></i> Completed
-                        </span>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
                     </div>
-                    <p class="institution">
-                        <i class="fas fa-school"></i> Your School Name, City
-                    </p>
+                    <h3>Python</h3>
+                    <p>Data structures, OOP, Web frameworks</p>
                 </div>
-
-                <div class="education-item">
-                    <div class="edu-header">
-                        <h3 class="degree">X - SSLC/CBSE</h3>
-                        <span class="duration">
-                            <i class="far fa-calendar"></i> Completed
-                        </span>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
                     </div>
-                    <p class="institution">
-                        <i class="fas fa-school"></i> Your School Name, City
-                    </p>
+                    <h3>Java</h3>
+                    <p>OOP concepts, Collections, Multithreading</p>
                 </div>
-            </section>
-
-            <!-- Technical Skills Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-code"></i> Technical Skills
-                </h2>
-                
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Programming Languages</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Java</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">C/C++</span>
-                            <span class="skill-tag">JavaScript</span>
-                        </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Web Development</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">HTML5</span>
-                            <span class="skill-tag">CSS3</span>
-                            <span class="skill-tag">Responsive Design</span>
-                            <span class="skill-tag">React</span>
-                        </div>
+                    <h3>C Programming</h3>
+                    <p>Pointers, Data structures, Algorithms</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
                     </div>
-
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Databases</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">MySQL</span>
-                            <span class="skill-tag">MongoDB</span>
-                            <span class="skill-tag">SQL</span>
-                        </div>
+                    <h3>HTML</h3>
+                    <p>Semantic markup, Forms, Accessibility</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
                     </div>
+                    <h3>CSS</h3>
+                    <p>Flexbox, Grid, Animations, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, Events</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Queries, Joins, Database Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, Collaboration, Workflows</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="skill-category">
-                        <h4 class="skill-category-title">Tools & Frameworks</h4>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Git/GitHub</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag">Spring Boot</span>
-                            <span class="skill-tag">Node.js</span>
-                        </div>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Student Management System</h3>
+                    <p>
+                        A comprehensive desktop application built with Java for managing student records, 
+                        attendance, and grades. Features include database integration and user authentication.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Swing</span>
                     </div>
                 </div>
-            </section>
-
-            <!-- Projects Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-project-diagram"></i> Projects
-                </h2>
-
-                <div class="project-item">
-                    <div class="project-header">
-                        <h3 class="project-title">[Project Title 1]</h3>
-                        <span class="project-date">
-                            <i class="far fa-calendar"></i> [Month-Year] - [Month-Year]
-                        </span>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
                     </div>
-                    <p class="project-description">
-                        <strong>Description:</strong> <span class="placeholder">[Brief description of your project, technologies used, and key achievements]</span>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A responsive personal portfolio website showcasing projects and skills. 
+                        Built with modern HTML5, CSS3, and JavaScript with smooth animations and 
+                        mobile-first design approach.
                     </p>
-                    <p class="project-tech">
-                        <strong>Technologies:</strong> <span class="placeholder">[List technologies used]</span>
-                    </p>
-                    <p class="project-contribution">
-                        <strong>Key Contribution:</strong> <span class="placeholder">[Your specific role and contribution]</span>
-                    </p>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-header">
-                        <h3 class="project-title">[Project Title 2]</h3>
-                        <span class="project-date">
-                            <i class="far fa-calendar"></i> [Month-Year] - [Month-Year]
-                        </span>
-                    </div>
-                    <p class="project-description">
-                        <strong>Description:</strong> <span class="placeholder">[Brief description of your project, technologies used, and key achievements]</span>
-                    </p>
-                    <p class="project-tech">
-                        <strong>Technologies:</strong> <span class="placeholder">[List technologies used]</span>
-                    </p>
-                    <p class="project-contribution">
-                        <strong>Key Contribution:</strong> <span class="placeholder">[Your specific role and contribution]</span>
-                    </p>
-                </div>
-
-                <div class="project-item">
-                    <div class="project-header">
-                        <h3 class="project-title">[Project Title 3]</h3>
-                        <span class="project-date">
-                            <i class="far fa-calendar"></i> [Month-Year] - [Month-Year]
-                        </span>
-                    </div>
-                    <p class="project-description">
-                        <strong>Description:</strong> <span class="placeholder">[Brief description of your project, technologies used, and key achievements]</span>
-                    </p>
-                    <p class="project-tech">
-                        <strong>Technologies:</strong> <span class="placeholder">[List technologies used]</span>
-                    </p>
-                    <p class="project-contribution">
-                        <strong>Key Contribution:</strong> <span class="placeholder">[Your specific role and contribution]</span>
-                    </p>
-                </div>
-            </section>
-
-            <!-- Certifications Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-certificate"></i> Certifications & Achievements
-                </h2>
-
-                <div class="certification-item">
-                    <i class="fas fa-check-circle"></i>
-                    <div class="cert-content">
-                        <h4>[Certification/Course Name]</h4>
-                        <p class="cert-issuer"><span class="placeholder">[Issuing Organization]</span> - <span class="placeholder">[Month-Year]</span></p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
                     </div>
                 </div>
-
-                <div class="certification-item">
-                    <i class="fas fa-check-circle"></i>
-                    <div class="cert-content">
-                        <h4>[Certification/Course Name]</h4>
-                        <p class="cert-issuer"><span class="placeholder">[Issuing Organization]</span> - <span class="placeholder">[Month-Year]</span></p>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Library Management Application</h3>
+                    <p>
+                        A full-stack application for managing library operations including book inventory, 
+                        member management, and issue/return tracking with real-time database updates.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Flask</span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="certification-item">
-                    <i class="fas fa-check-circle"></i>
-                    <div class="cert-content">
-                        <h4>[Certification/Course Name]</h4>
-                        <p class="cert-issuer"><span class="placeholder">[Issuing Organization]</span> - <span class="placeholder">[Month-Year]</span></p>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
                     </div>
+                    <h3>Python Programming</h3>
+                    <p class="cert-issuer">Coursera</p>
+                    <p class="cert-date">Issued: 2024</p>
                 </div>
-            </section>
-
-            <!-- Leadership & Responsibilities Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-users"></i> Leadership & Responsibilities
-                </h2>
-
-                <div class="leadership-item">
-                    <h3 class="leadership-title">Class Representative</h3>
-                    <p class="leadership-org">
-                        <i class="fas fa-university"></i> Hindusthan College of Engineering and Technology
-                    </p>
-                    <p class="leadership-duration">
-                        <i class="far fa-calendar"></i> <span class="placeholder">[Start Date - Present]</span>
-                    </p>
-                    <ul class="leadership-details">
-                        <li><span class="placeholder">Represent class in academic and administrative matters</span></li>
-                        <li><span class="placeholder">Coordinate between students and faculty for effective communication</span></li>
-                        <li><span class="placeholder">Organize and conduct class events and activities</span></li>
-                        <li><span class="placeholder">Manage class schedule and attendance coordination</span></li>
-                    </ul>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Web Development Fundamentals</h3>
+                    <p class="cert-issuer">Udemy</p>
+                    <p class="cert-date">Issued: 2024</p>
                 </div>
-
-                <div class="leadership-item">
-                    <h3 class="leadership-title">[Other Leadership Role/Responsibility]</h3>
-                    <p class="leadership-org">
-                        <i class="fas fa-building"></i> <span class="placeholder">[Organization/Club Name]</span>
-                    </p>
-                    <p class="leadership-duration">
-                        <i class="far fa-calendar"></i> <span class="placeholder">[Start Date - End Date]</span>
-                    </p>
-                    <ul class="leadership-details">
-                        <li><span class="placeholder">[Key responsibility 1]</span></li>
-                        <li><span class="placeholder">[Key responsibility 2]</span></li>
-                        <li><span class="placeholder">[Key responsibility 3]</span></li>
-                    </ul>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Introduction to Cloud Computing</h3>
+                    <p class="cert-issuer">IBM / Coursera</p>
+                    <p class="cert-date">Issued: 2024</p>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <!-- Achievements Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-trophy"></i> Achievements & Awards
-                </h2>
-
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-list">
                 <div class="achievement-item">
-                    <i class="fas fa-star"></i>
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
                     <div class="achievement-content">
-                        <h4><span class="placeholder">[Achievement/Award Title]</span></h4>
-                        <p class="achievement-date"><span class="placeholder">[Month-Year]</span></p>
+                        <h3>Hackathon Participant</h3>
+                        <p>Participated in college tech hackathon and developed a real-time attendance system 
+                        using IoT and cloud technologies. Ranked among top 5 teams.</p>
                     </div>
                 </div>
-
                 <div class="achievement-item">
-                    <i class="fas fa-star"></i>
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
                     <div class="achievement-content">
-                        <h4><span class="placeholder">[Achievement/Award Title]</span></h4>
-                        <p class="achievement-date"><span class="placeholder">[Month-Year]</span></p>
+                        <h3>Class Representative</h3>
+                        <p>Served as Class Representative for 2 consecutive years, facilitating communication 
+                        between students and faculty while organizing various academic and cultural events.</p>
                     </div>
                 </div>
-
                 <div class="achievement-item">
-                    <i class="fas fa-star"></i>
+                    <div class="achievement-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
                     <div class="achievement-content">
-                        <h4><span class="placeholder">[Achievement/Award Title]</span></h4>
-                        <p class="achievement-date"><span class="placeholder">[Month-Year]</span></p>
+                        <h3>Technical Event Organizer</h3>
+                        <p>Organized and managed multiple technical workshops and seminars including Git & GitHub 
+                        basics, Web Development fundamentals, and Data Structure optimization.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <!-- Languages Section -->
-            <section class="section">
-                <h2 class="section-title">
-                    <i class="fas fa-language"></i> Languages Known
-                </h2>
-
-                <div class="languages-grid">
-                    <div class="language-item">
-                        <span class="language-name">English</span>
-                        <span class="language-level professional">Professional Working Proficiency</span>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:alexjohnson@example.com">alexjohnson@example.com</a>
+                        </div>
                     </div>
-
-                    <div class="language-item">
-                        <span class="language-name">Tamil</span>
-                        <span class="language-level native">Native</span>
-                    </div>
-
-                    <div class="language-item">
-                        <span class="language-name">Hindi</span>
-                        <span class="language-level professional">Professional Working Proficiency</span>
-                    </div>
-
-                    <div class="language-item">
-                        <span class="language-name">[Optional Language]</span>
-                        <span class="language-level professional">Professional Working Proficiency</span>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:+919876543210">+91 9876543210</a>
+                        </div>
                     </div>
                 </div>
-            </section>
-
-            <!-- Contact Information Footer -->
-            <section class="section footer-section">
-                <h2 class="section-title">
-                    <i class="fas fa-envelope"></i> Get in Touch
-                </h2>
-                <div class="footer-contact">
-                    <p>
-                        <i class="fas fa-phone"></i> 
-                        <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXXXX</a>
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope"></i> 
-                        <a href="mailto:your.email@example.com">your.email@example.com</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-linkedin"></i> 
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
-                    </p>
-                    <p>
-                        <i class="fab fa-github"></i> 
-                        <a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a>
-                    </p>
+                <div class="social-links">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-        </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+        </div>
+    </footer>
 
-    </div>
-
-    <!-- Print Styles & JS for PDF conversion support -->
-    <script>
-        // Enable print-friendly PDF generation
-        window.print = function() {
-            window.print();
-        };
-
-        // Optional: Auto-focus on editable content
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Resume loaded successfully');
-        });
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
